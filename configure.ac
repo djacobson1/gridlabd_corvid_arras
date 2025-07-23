@@ -704,3 +704,7 @@ AC_CONFIG_FILES([Makefile])
 AC_CONFIG_FILES([gridlabd.spec])
 AC_CONFIG_FILES([source/gridlabd], [chmod +x source/gridlabd])
 AC_OUTPUT
+
+echo "prefix"
+echo $prefix
+exit
