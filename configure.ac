@@ -80,7 +80,8 @@ AC_SUBST(PACKAGE_BRANCH, pkgbranch)
 AC_SUBST(PACKAGE_ORIGIN, pkgorigin)
 AC_SUBST(PACKAGE_REVISION, gitversion)
 
-AC_PREFIX_DEFAULT(pkginstall)
+#!%AC_PREFIX_DEFAULT(pkginstall)
+AC_PREFIX_DEFAULT([/root/develop/gridlabd])
 
 AM_SILENT_RULES([yes])
 
