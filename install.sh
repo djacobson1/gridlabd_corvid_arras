@@ -4,7 +4,8 @@
 # export INSTALL_STDERR=FILENAME
 # export GRIDLABD_IMAGE=OS_VERSION-MACHINE
 DEFAULT_SOURCE="https://install.arras.energy"
-DEFAULT_TARGET="/usr/local/opt"
+#DEFAULT_TARGET="/usr/local/opt"
+DEFAULT_TARGET="/root/develop"
 DEFAULT_STDOUT="/dev/stdout"
 DEFAULT_STDERR="/dev/stderr"
 test "$(whoami)" = "root"  && echo "WARNING [install.sh]: installing as root can cause permission problems with python" > $DEFAULT_STDERR
