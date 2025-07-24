@@ -586,7 +586,7 @@ if test "x$prefix" = "xNONE"; then
   prefix="/usr/local/opt/gridlabd"
 fi
 
-prefix="/root/develop/gridlabd"
+prefix="/root/develop/gridlabd/"
 PREFIX=$prefix
 #DSTDIR=$PREFIX/versionname
 #prefix=$DSTDIR
