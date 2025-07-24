@@ -63,7 +63,7 @@ case $1 in
             echo "/usr/local/opt/$PKG/$MAJ.$MIN.$PAT-$NUM-$BRA-$SYS-$HDW"
         else
             #echo "$HOME/opt/$PKG/$MAJ.$MIN.$PAT-$NUM-$BRA-$SYS-$HDW"
-            echo "/root/develop/gridlabd/$PKG/$MAJ.$MIN.$PAT-$NUM-$BRA-$SYS-$HDW"
+            echo "/root/develop/gridlabd/"
         fi
         ;;
     --name | -m)
