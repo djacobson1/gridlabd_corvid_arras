@@ -588,8 +588,8 @@ fi
 
 prefix="/root/develop/gridlabd"
 PREFIX=$prefix
-DSTDIR=$PREFIX/versionname
-prefix=$DSTDIR
+#DSTDIR=$PREFIX/versionname
+#prefix=$DSTDIR
 
 BINDIR=$DSTDIR/bin
 LIBDIR=$DSTDIR/lib/gridlabd
